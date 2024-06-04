@@ -38,18 +38,6 @@ public class Game {
     return 0;
   }
 
-  public String getRandomWord() {
-    String randomElement;
-
-    System.out.print("What category do you want? (foods, movies, countries) ");
-    ArrayList<String> list = new ArrayList<String>();
-    String choice = scanner.nextLine();
-
-    randomElement = "error";
-    System.out.println(list.size());
-    System.out.println(randomElement);
-    return null;
-  }
 
   public void playGame() {
     Scanner Level = new Scanner(System.in);
