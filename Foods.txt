@@ -1,0 +1,462 @@
+Acai Berry
+Acorn Squash
+Agave Nectar
+Alfredo
+Almond
+Anchovy
+Angelfood Cake
+Animal Crackers
+Apple
+Applesauce
+Apricot
+Artichoke
+Arugula
+Asparagus
+Avocado
+Bacon
+Baguette
+Baking Powder
+Baking Soda
+Baloney
+Bamboo Shoots
+Banana
+Banana Bread
+Barley
+Basil
+Bean Sprouts
+Beans
+Beef
+Beer
+Beet
+Biscuit
+Bison
+Black Beans
+Black-Eyed Peas
+Blackberry
+Bleu Cheese
+Blondie
+Blueberry
+Bok Choy
+Bran
+Brazil Nut
+Bread
+Breadstick
+Broccoli
+Brownie
+Brussels Sprout
+Buckwheat
+Bun
+Burrito
+Butter
+Buttercup Squash
+Buttermilk
+Butternut Squash
+Butterscotch
+Cabbage
+Caesar Salad
+Cake
+Calamari
+Calzone
+Candy
+Candy Cane
+Cannellini Beans
+Cantaloupe
+Cappuccino
+Caramel
+Carrot
+Cashew
+Casserole
+Catfish
+Cauliflower
+Caviar
+Celery
+Cereal
+Chai Tea
+Chalupa
+Chard
+Cheddar
+Cheerios
+Cheese
+Cherries
+Chestnut
+Chia Seeds
+Chicken
+Chickpeas
+Chili
+Chips
+Chives
+Chocolate
+Chowder
+Chutney
+Cider
+Cinnamon
+Clementine
+Cobbler
+Cocoa
+Coconut
+Cod
+Coffee
+Colby Jack
+Cole Slaw
+Collard Greens
+Cookie
+Corn
+Cornbread
+Cottage Cheese
+Couscous
+Crab
+Cracker
+Cranberry
+Cream
+Cream Cheese
+Crepe
+Crisp
+Croissant
+Croutons
+Cucumber
+Cupcake
+Currant
+Custard
+Danish
+Darjeeling Tea
+Date
+Devil’s Food Cake
+Donut
+Donut Hole
+Dough
+Dressing
+Drumstick
+Duck Sauce
+Dulce de Leche
+Eclair
+Egg
+Egg Roll
+Eggplant
+Elderberry
+Empanada
+Enchilada
+English Muffin
+Fajita
+Falafel
+Fennel
+Feta Cheese
+Fettucine
+Fig
+Fish
+Fishsticks
+Flakes
+Flax Seed
+Flour
+Frappe
+French Fries
+French Toast
+Fried Rice
+Fritters
+Frosting
+Fruit Leather
+Fudge
+Garlic
+Gelato
+Ginger
+Gooseberry
+Gouda
+Goulash
+Graham Cracker
+Granola
+Grape
+Grapefruit
+Gravy
+Green Beans
+Green Pepper
+Green Tea
+Grits
+Guacamole
+Guava
+Gum
+Haddock
+Hake
+Half and Half
+Ham
+Hamburger
+Hash Browns
+Havarti
+Hazelnut
+Hoagie
+Honey
+Honeydew Melon
+Hot Dog
+Hummus
+Ice
+Ice Cream
+Iced Tea
+Icing
+Italian
+Jalapeno Pepper
+Jam
+Jambalaya
+Jello
+Jelly
+Jellybeans
+Jerky
+Jicama
+Juice
+Kalamata Olives
+Kale
+Kebabs
+Kefir
+Ketchup
+Kettle Corn
+Kidney Beans
+Kielbasa
+Kit-Kat
+Kiwi
+Klondike Bar
+Kohlrabi
+Kombucha
+Kumquat
+Lasagna
+Lassi
+Leek
+Lemon
+Lemonade
+Lemongrass
+Lentils
+Lettuce
+Lima Beans
+Lime
+Limeade
+Linguine
+Liquor
+Liver
+Lobster
+Lollipop
+M&Ms
+Macadamia Nut
+Macaroni
+Macaroni and Cheese
+Mango
+Marinara Sauce
+Marmalade
+Marshmallows
+Masala
+Masala
+Matcha
+Matzo
+Mayonnaise
+Mead
+Meat
+Meatballs
+Meatloaf
+Milk
+Milkshake
+Millet
+Minestrone
+Mint
+Mocha
+Molasses
+Moose
+Mozzarella
+Muffin
+Mushroom
+Mustard
+Naan Bread
+Nachos
+Navy Beans
+Nectarine
+Nonpareilles
+Noodles
+Nuggets
+Nut
+Nutella
+Nutmeg
+Oatmeal
+Oats
+Olive
+Olive Oil
+Onion
+Orange
+Orange Juice
+Oregano
+Oreo
+Oyster
+Oyster Sauce
+Pancake
+Papaya
+Paprika
+Parmesan
+Parsley
+Parsnip
+Passionfruit
+Pasta
+Pastrami
+Peach
+Peanut
+Peanut Butter
+Pear
+Pecan
+Pepper
+Pepper Jack
+Peppermint
+Pesto
+Pickles
+Pico de Gallo
+Pineapple
+Pistachio
+Pita Bread
+Pizza
+Plum
+Poblano Pepper
+Pomegranate
+Popcorn
+Popsicle
+Pork
+Potato
+Powdered Sugar
+Prune
+Pudding
+Pumpernickel Bread
+Pumpkin
+Pumpkin Pie
+Quinoa
+Radish
+Raisin
+Ramen
+Ranch Dressing
+Raspberry
+Ravioli
+Red Beans
+Red Cabbage
+Red Pepper
+Red Velvet Cake
+Reese's
+Rhubarb
+Rice
+Rice Cakes
+Rice Krispies
+Ricotta
+Rigatoni
+Risotto
+Rockfish
+Rocky Road Ice Cream
+Romaine Lettuce
+Rosemary
+Rutabaga
+Saffron
+Sage
+Salad
+Salami
+Salmon
+Salsa
+Salt
+Samosa
+Sardine
+Satay
+Sausage
+Scallops
+Scrambled Eggs
+Seaweed
+Seeds
+Sesame Oil
+Sesame Seeds
+Shallot
+Sherbet
+Shortbread
+Shrimp
+Sirloin Steak
+Skittles
+Slaw
+Sloppy Joe
+Smoked Salmon
+Smoothie
+Snapper
+Snickers
+Soda
+Sorbet
+Sorghum
+Sour Cream
+Soy Milk
+Soy Sauce
+Soybean
+Spaghetti
+Spaghetti Squash
+Spam
+Sparkling Water
+Spinach
+Sponge Cake
+Sprinkles
+Squash
+Squid
+Star Anise
+Starfruit
+Steak
+Stew
+Strawberry
+String Beans
+Stuffed Peppers
+Sugar
+Sugar Snap Peas
+Sunflower Seeds
+Sushi
+Swiss Cheese
+Swordfish
+Taco
+Tahini
+Tangerine
+Tapioca
+Taro
+Tart
+Tater Tots
+Teff
+Tempura
+Teriyaki Sauce
+Thyme
+Tilapia
+Tiramisu
+Toffee
+Tomatillo
+Tomato
+Tomato Sauce
+Tortellini
+Tortilla
+Tortilla Chips
+Tofu
+Trout
+Truffle
+Tuna
+Turkey
+Turnip
+Twinkie
+Vanilla
+Veal
+Vegetable Oil
+Vegetables
+Vegetarian
+Veggie Burger
+Veggie Chips
+Venison
+Vermicelli
+Vinaigrette
+Vinegar
+Vodka
+Waffle
+Walnut
+Wasabi
+Water
+Water Chestnuts
+Watercress
+Watermelon
+Wheat
+Wheat Bread
+Wheat Germ
+Whipped Cream
+Whiskey
+White Chocolate
+White Rice
+White Vinegar
+Wonton
+Yam
+Yeast
+Yellow Squash
+Yogurt
+Ziti
+Zucchini
