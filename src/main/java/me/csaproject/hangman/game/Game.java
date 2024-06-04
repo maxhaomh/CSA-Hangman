@@ -1,11 +1,10 @@
-package game;
+package me.csaproject.hangman.game;
 
-import cache.WordsCache;
-import service.FileReadService;
+import com.google.inject.Inject;
+import com.google.inject.assistedinject.Assisted;
+import me.csaproject.hangman.cache.WordsCache;
 
 import java.util.Scanner;
-import java.util.ArrayList;
-import java.util.Random;
 
 public class Game {
   private int maxTries;
@@ -16,7 +15,8 @@ public class Game {
   private int level;
 
 
-  public Game(int Level, String cat, WordsCache cache) {
+  @Inject
+  public Game(@Assisted int level, @Assisted String cat, WordsCache cache) {
     this.maxTries = 0;
     this.tries = maxTries;
     this.word = cache.getRandomWord(cat);

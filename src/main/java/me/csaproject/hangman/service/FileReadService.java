@@ -1,6 +1,7 @@
-package service;
+package me.csaproject.hangman.service;
 
-import cache.WordsCache;
+import com.google.inject.Inject;
+import me.csaproject.hangman.cache.WordsCache;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -11,6 +12,7 @@ public class FileReadService {
 
   private final WordsCache wordsCache;
 
+  @Inject
   public FileReadService(WordsCache wordsCache) {
     this.wordsCache = wordsCache;
   }
@@ -22,7 +24,8 @@ public class FileReadService {
     while (br.readLine() != null) {
       list.add(br.readLine());
     }
-    wordsCache.addList(fileName, list);
+
+    wordsCache.addList(fileName.substring(0, fileName.length() - 4), list);
     in.close();
   }
 }

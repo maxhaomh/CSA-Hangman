@@ -1,4 +1,6 @@
-import game.Game;
+package me.csaproject.hangman;
+
+import me.csaproject.hangman.game.Game;
 
 import java.awt.*;
 import javax.swing.*;
