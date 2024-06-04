@@ -25,7 +25,7 @@ public class Main {
 
     Game game = new Game(1 , cat, wordsCache);
     new HangmanGraphics(game);
-    game.getRandomWord();
+//    game.getRandomWord();
     game.playGame();
 
 /*JFrame frame = new JFrame("Circle and Line Example");
