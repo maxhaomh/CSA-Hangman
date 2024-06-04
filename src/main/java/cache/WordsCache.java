@@ -20,5 +20,11 @@ public class WordsCache {
     return wordsCache.get(key);
   }
 
+  public String getRandomWord(String key) {
+    ArrayList<String> list = wordsCache.get(key);
+    int randomIndex = (int) (Math.random() * list.size());
+    return list.get(randomIndex);
+  }
+
 
 }
