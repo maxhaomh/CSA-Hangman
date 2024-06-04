@@ -26,8 +26,6 @@ public class Hangman {
   GameFactory gameFactory;
 
 
-
-
   public void setup() throws IOException {
 
     Injector injector = Guice.createInjector(new BinderModule(this), new GameModule());
@@ -41,7 +39,6 @@ public class Hangman {
 
     start();
   }
-
 
 
   public void start() {
