@@ -3,7 +3,6 @@ package cache;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-
 public class WordsCache {
 
 
