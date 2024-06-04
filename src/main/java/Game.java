@@ -1,3 +1,6 @@
+import cache.WordsCache;
+import service.FileReadService;
+
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Random;
@@ -9,19 +12,19 @@ public class Game {
   private String build;
   private int incorrectGuesses;
   private int level;
-  private ArrayList<String> countries = new ArrayList<String>();
-  private ArrayList<String> foods = new ArrayList<String>();
-  private ArrayList<String> movies = new ArrayList<String>();
+  private ArrayList<String> countries;
+  private ArrayList<String> foods;
+  private ArrayList<String> movies;
 
-  public Game(int Level, ArrayList<String> c, ArrayList<String> f, ArrayList<String> m) {
+  public Game(int Level, WordsCache cache) {
     this.maxTries = 0;
     this.tries = maxTries;
     this.word = getRandomWord();
     this.build = " ";
     this.incorrectGuesses = maxTries - tries;
-    this.countries = c;
-    this.movies = m;
-    this.foods = f;
+    this.countries = cache.getList("countries");
+    this.foods = cache.getList("foods");
+    this.movies = cache.getList("movies");
 
   }
 
@@ -44,14 +47,19 @@ public class Game {
     System.out.print("What category do you want? (foods, movies, countries) ");
     ArrayList<String> list = new ArrayList<String>();
     String choice = scanner.nextLine();
-    if (choice.equals("countries")) {
-      randomElement = countries.get((int)(Math.random()*(countries.size())));
-    }
-    else if (choice.equals("movies")) {
-      randomElement = movies.get((int)(Math.random()*(movies.size())));
-    }
-    else if (choice.equals("foods")) {
-      randomElement = foods.get((int)(Math.random()*(foods.size())));    
+    switch (choice) {
+      case "foods":
+        list = foods;
+        break;
+      case "movies":
+        list = movies;
+        break;
+      case "countries":
+        list = countries;
+        break;
+      default:
+        System.out.println("Invalid category");
+        break;
     }
     randomElement = "error";
     System.out.println(list.size());
