@@ -1,12 +1,9 @@
 package cache;
 
-import com.google.inject.Singleton;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 
 
-@Singleton
 public class WordsCache {
 
 
@@ -22,6 +19,12 @@ public class WordsCache {
 
   public ArrayList<String> getList(String key) {
     return wordsCache.get(key);
+  }
+
+  public String getRandomWord(String key) {
+    ArrayList<String> list = wordsCache.get(key);
+    int randomIndex = (int) (Math.random() * list.size());
+    return list.get(randomIndex);
   }
 
 

@@ -1,10 +1,10 @@
 import cache.WordsCache;
+import game.Game;
+import game.Utils;
 import service.FileReadService;
 
-import java.util.*;
 import java.io.*;
-import java.io.FileReader;
-import java.io.BufferedReader;
+
 public class Main {
 
 
@@ -21,7 +21,9 @@ public class Main {
     fileReadService.readFile("foods.txt");
     fileReadService.readFile("movies.txt");
 
-    Game game = new Game(1 , wordsCache);
+    String cat = Utils.catPrompt();
+
+    Game game = new Game(1 , cat, wordsCache);
     new HangmanGraphics(game);
     game.getRandomWord();
     game.playGame();

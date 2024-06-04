@@ -1,3 +1,5 @@
+package game;
+
 import cache.WordsCache;
 import service.FileReadService;
 
@@ -12,19 +14,15 @@ public class Game {
   private String build;
   private int incorrectGuesses;
   private int level;
-  private ArrayList<String> countries;
-  private ArrayList<String> foods;
-  private ArrayList<String> movies;
 
-  public Game(int Level, WordsCache cache) {
+
+  public Game(int Level, String cat, WordsCache cache) {
     this.maxTries = 0;
     this.tries = maxTries;
-    this.word = getRandomWord();
+    this.word = cache.getRandomWord(cat);
     this.build = " ";
     this.incorrectGuesses = maxTries - tries;
-    this.countries = cache.getList("countries");
-    this.foods = cache.getList("foods");
-    this.movies = cache.getList("movies");
+
 
   }
 
@@ -41,26 +39,12 @@ public class Game {
   }
 
   public String getRandomWord() {
-    Scanner scanner = new Scanner(System.in);
     String randomElement;
 
     System.out.print("What category do you want? (foods, movies, countries) ");
     ArrayList<String> list = new ArrayList<String>();
     String choice = scanner.nextLine();
-    switch (choice) {
-      case "foods":
-        list = foods;
-        break;
-      case "movies":
-        list = movies;
-        break;
-      case "countries":
-        list = countries;
-        break;
-      default:
-        System.out.println("Invalid category");
-        break;
-    }
+
     randomElement = "error";
     System.out.println(list.size());
     System.out.println(randomElement);
