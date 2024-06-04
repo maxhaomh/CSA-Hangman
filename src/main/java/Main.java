@@ -14,12 +14,13 @@ public class Main {
 
   public static void main(String[] args) throws IOException {
 
-    fileReadService = new FileReadService(new WordsCache());
     wordsCache = new WordsCache();
+    
+    fileReadService = new FileReadService(wordsCache);
 
-    fileReadService.readFile("countries.txt");
-    fileReadService.readFile("foods.txt");
-    fileReadService.readFile("movies.txt");
+    fileReadService.readFile("Countries.txt");
+    fileReadService.readFile("Foods.txt");
+    fileReadService.readFile("Movies.txt");
 
     String cat = Utils.catPrompt();
 

@@ -5,7 +5,6 @@ import java.util.HashMap;
 
 public class WordsCache {
 
-
   private final HashMap<String, ArrayList<String>> wordsCache;
 
   public WordsCache() {

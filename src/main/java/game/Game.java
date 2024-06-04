@@ -23,7 +23,6 @@ public class Game {
     this.build = " ";
     this.incorrectGuesses = maxTries - tries;
 
-
   }
 
   public int calculateAllowedGuesses() {
