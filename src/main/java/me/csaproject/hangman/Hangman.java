@@ -36,7 +36,7 @@ public class Hangman {
 
     fileReadService.readFile("countries.txt");
     fileReadService.readFile("foods.txt");
-    fileReadService.readFile("Movies.txt");
+    fileReadService.readFile("movies.txt");
 
 
     start();
